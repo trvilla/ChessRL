@@ -2,4 +2,7 @@ body {
 	background-color: powderblue;
 }
 
-
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
