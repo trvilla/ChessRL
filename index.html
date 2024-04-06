@@ -6,6 +6,17 @@
 		<style>
 			h1 {text-align: center;}
 			p {text-align: center;}
+			.container {
+				height:200px;
+				position:relative;
+			}
+			.vertical-center {
+				margin:0;
+				position:absolute;
+				top:50%;
+				-ms-transform:translateY(-50%);
+				transform:translateY(-50%);
+			}
 		</style>
 		<title>ChessRL</title>
 	</head>
@@ -16,9 +27,12 @@
 		<p>This chess engine implements a reinforcement learning algorithm</p>
 		<p>This project was created to deepen my understanding of modern reinforcement learning 
 		techniques</p>
-		<div class="vertical-center">
-			<button type="button">Play</button>
+		<div class="container">
+			<div class="vertical-center">
+				<button>Play</button>
+			</div>
 		</div>
+
 	</body>
 </html>
 
